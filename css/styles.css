@@ -1,0 +1,121 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}    
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+:root {
+    --color-brand-light: #2B7FFF;
+    --color-brand-dark: #011C44;
+    --color-primary-light: #FFFFFF;
+    --color-coperight-dark: #747272;
+}
+
+/* Base */
+body {
+    font-family: 'Robobo', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+/* Title */
+.hero-title {
+    color: var(--color-brand-light);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 1;
+}
+
+/* Button */
+.button {
+    color: var(--color-primary-light);
+    font-weight: 600;
+    background-color: var(--color-brand-light);
+    border-radius: 32px;
+    cursor: pointer;
+}
+.button:hover {
+    color: var(--color-brand-dark);
+    background-color: transparent;
+}
+
+/* Reincarnation section */
+.reincarnation-section {
+}
+
+.capitalize {
+    text-transform: capitalize;
+    color: var(--color-brand-light);
+}
+.capitalize-dark{
+    font-family: 'Play', sans-serif;
+    color: var(--color-brand-dark);
+}
+
+/* People section */
+
+.dark {
+    font-family: 'play', sans-serif;
+    color: var(--color-brand-dark);
+}
+
+.light {
+    color: var(--color-brand-light);
+}
+
+/* Procedures section */
+.procedures-section {
+    font-family: 'Play', sans-serif;
+    color: var(--color-brand-dark);
+}
+
+.procedures-section .light {
+    color: var(--color-brand-light);
+}
+
+
+/* Link */
+.link {
+    color: var(--color-brand-dark);
+    font-family: 'Roboboto', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+}
+.link:hover {
+    color: var(--color-brand-light);
+}
+
+.address-link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: var(--color-brand-light);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-brand-dark);
+}
+.address-copyright {
+    color: var(--color-coperight-dark);
+}
+.footer-img {
+    width: 278px;
+    height: 213px;
+}
